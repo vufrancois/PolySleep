@@ -1,0 +1,37 @@
+#recordingPage .background {
+    background-image: url("../img/recorder/background.png");
+    height: 100vh;
+    width: 100%;
+}
+
+#recordingPage .back
+{
+    width: 16px;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#recordingPage .readyToSleepText {
+    width: 157px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recordingPage .pressToStart {
+    width: 307px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recordingPage .forwardArrow {
+    position: fixed;
+    bottom:0;
+    left: auto;
+    right: auto;
+    width:100%;
+    height:62px;
+
+}

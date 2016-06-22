@@ -1,0 +1,29 @@
+#dataCollectPage .background {
+    background-image: url("../img/dataCollect/background.png");
+    width: 100%;
+    height: 100vh;
+}
+
+#dataCollectPage .back
+{
+    width: 16px;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#dataCollectPage .chart
+{
+    width: 265px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dataCollectPage .button
+{
+    width: 175px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

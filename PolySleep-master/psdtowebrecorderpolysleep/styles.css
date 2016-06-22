@@ -1,0 +1,77 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 360px;
+	 height: 580px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 360px;
+	 height: 580px;
+	 z-index:1;
+} 
+
+ #SleepyTime 
+{ 
+	 left: 58px; 
+	 top: 317px; 
+	 position: absolute; 
+	 width: 220px;
+	 height: 39px;
+	 z-index:2;
+} 
+
+ #backarrow 
+{ 
+	 left: 24px; 
+	 top: 23px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 15px;
+	 z-index:4;
+} 
+
+ #ReadytoSleep 
+{ 
+	 left: 103px; 
+	 top: 155px; 
+	 position: absolute; 
+	 width: 157px;
+	 height: 167px;
+	 z-index:5;
+} 
+
+ #PressArrowtoStart 
+{ 
+	 left: 34px; 
+	 top: 442px; 
+	 position: absolute; 
+	 width: 307px;
+	 height: 23px;
+	 z-index:6;
+} 
+
+ #forwardarrow 
+{ 
+	 left: -1px; 
+	 top: 517px; 
+	 position: absolute; 
+	 width: 362px;
+	 height: 64px;
+	 z-index:7;
+} 

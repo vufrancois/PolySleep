@@ -1,0 +1,97 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 640px;
+	 height: 1136px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer1 
+{ 
+	 left: -270px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 2306px;
+	 height: 1470px;
+	 z-index:1;
+} 
+
+ #overlay 
+{ 
+	 left: -1px; 
+	 top: -1px; 
+	 position: absolute; 
+	 width: 642px;
+	 height: 1138px;
+	 z-index:2;
+} 
+
+ #POLYSLEEP 
+{ 
+	 left: 221px; 
+	 top: 539px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 27px;
+	 z-index:3;
+} 
+
+ #VectorSmartObject 
+{ 
+	 left: 192px; 
+	 top: 245px; 
+	 position: absolute; 
+	 width: 257px;
+	 height: 257px;
+	 z-index:4;
+} 
+
+ #outline 
+{ 
+	 left: 163px; 
+	 top: 929px; 
+	 position: absolute; 
+	 width: 313px;
+	 height: 83px;
+	 z-index:5;
+} 
+
+ #SignUp 
+{ 
+	 left: 276px; 
+	 top: 962px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 18px;
+	 z-index:6;
+} 
+
+ #button 
+{ 
+	 left: 163px; 
+	 top: 808px; 
+	 position: absolute; 
+	 width: 313px;
+	 height: 83px;
+	 z-index:7;
+} 
+
+ #login 
+{ 
+	 left: 283px; 
+	 top: 841px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 18px;
+	 z-index:8;
+} 

@@ -1,0 +1,95 @@
+<!--
+    Initial Login Page for App
+ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PolySleep - Sleep Smarter</title>
+
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jqueryMobile.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link rel="stylesheet" type="text/css" href="css/dataCollect.css">
+        <link rel="stylesheet" type="text/css" href="css/sleepTimer.css">
+        <link rel="stylesheet" type="text/css" href="css/chart.css">
+        <link rel="stylesheet" type="text/css" href="css/recording.css">
+
+        <script>
+            var PolySleep = [];
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="js/vendor/jquery/jquery.js"></script>
+        <script src="js/vendor/jquery/jqueryMobile.js"></script>
+        <script src="js/vendor/mediafire/mediafire.js"></script>
+        <script src="js/vendor/mediafire/mfuploader.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/login.js"></script>
+        <script src="js/chart.js"></script>
+        <script src="js/recordAudio.js"></script>
+        <script src="js/cloud.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div data-role="page" id="loginPage">
+               <div class="background">
+                    <div class="logo"><img src="img/login/logo.png"></div>
+
+                        <div class="login"><a href="#dataCollectPage" data-transition="slide"><img src="img/login/login.png"></a></div>
+
+                        <div class="signup"><img src="img/login/signup.png"></div>
+
+                </div>
+            </div>
+            <div data-role="page" id="dataCollectPage">
+                <div class="background">
+                    <a href="#loginPage" data-transition="slide">
+                        <div class="back"><img src="img/dataCollect/arrow.png"></div>
+                    </a>
+                    <div class="chart"><img src="img/dataCollect/chart.png"></div>
+                    <a href="#sleepTimerPage" data-transition="slide">
+                        <div class="button"><img src="img/dataCollect/next.png"></div>
+                    </a>
+                </div>
+            </div>
+            <div data-role="page" id="sleepTimerPage">
+                <div class="background">
+                    <a href="#loginPage" data-transition="slide">
+                        <div class="back"><img src="img/sleepTimer/arrow.png"></div>
+                    </a>
+                    <div class="timer"><img src="img/sleepTimer/timer.png"></div>
+                    <a href="#chartPage" data-transition="slide">
+                        <p class="timerText">02:30</p>
+                    </a>
+                </div>
+            </div>
+            <div data-role="page" id="chartPage">
+                <div class="background">
+                    <a href="#recordingPage" data-transition="slide">
+                        <div id="chartdiv" data-transition="slide">
+                            <img class="loadingImg" src="img/chart/loading.gif">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div data-role="page" id="recordingPage">
+                <div class="background">
+                    <a href="#loginPage" data-transition="slide">
+                        <div class="back"><img src="img/recorder/backarrow.png"></div>
+                    </a>
+                    <div class="readyToSleepText"><img src="img/recorder/ReadytoSleep.png"></div>
+                    <div class="pressToStart"><img src="img/recorder/PressArrowtoStart.png"></div>
+                    <div class="forwardArrow" onclick="getAudio();"><img src="img/recorder/forwardarrow.png"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

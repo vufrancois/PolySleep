@@ -1,0 +1,6 @@
+PolySleep.calendarManager = function() {
+
+	return {
+
+	}
+}();
